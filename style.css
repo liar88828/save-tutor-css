@@ -17,12 +17,24 @@ body {
     margin: 100px auto;
     padding: 10px;
     display: grid;
-    grid-template-columns: 30% 40% 34%;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
+    /* mengubah kolom gunakan 
+    grid-template-columns: 30% 40% 30%;
+    grid-template-columns: repeat(3,1fr);
+    */
+    /* column-gap: 10px; memberi ruang pada vertikal
+    row-gap: 10px;  memberi ruang pada horizontal*/
+    /* grid-template-rows: repeat(3,1fr); memberi ruang rata setara dengan isi text yang ada */
+    /* grid-auto-rows: minmax(200px, auto); */
+    /* grid-auto-rows: 200px; memberi ruang tetep atau kaku */
 }
-.item{
+
+.item {
     background: steelblue;
     color: wheat;
     font-size: 20px;
     padding: 20px;
     border: skyblue 1px solid;
+    /* margin: 10px; memberi ruang antar kotak*/
 }
