@@ -19,14 +19,26 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     gap: 10px;
+   
+
+    /*align-items: end;
+    grid-template-columns: repeat(3,100px);
+    justify-content: right; akan mengubah posisi kotak sesuai justify-content */
+
+    /* align-items: stretch; akan menjadikan ukuran kotak menyesuaikan isi text yang sudah ada  */
+
     /* mengubah kolom gunakan 
     grid-template-columns: 30% 40% 30%;
     grid-template-columns: repeat(3,1fr);
     */
+
     /* column-gap: 10px; memberi ruang pada vertikal
     row-gap: 10px;  memberi ruang pada horizontal*/
+
     /* grid-template-rows: repeat(3,1fr); memberi ruang rata setara dengan isi text yang ada */
+
     /* grid-auto-rows: minmax(200px, auto); */
+
     /* grid-auto-rows: 200px; memberi ruang tetep atau kaku */
 }
 
@@ -38,3 +50,4 @@ body {
     border: skyblue 1px solid;
     /* margin: 10px; memberi ruang antar kotak*/
 }
+
