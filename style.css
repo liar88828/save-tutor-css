@@ -17,6 +17,7 @@ body {
     margin: 100px auto;
     padding: 10px;
     display: grid;
+    grid-template-columns: 30% 40% 34%;
 }
 .item{
     background: steelblue;
