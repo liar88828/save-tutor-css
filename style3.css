@@ -65,3 +65,28 @@
      line-height: 1.4;
      opacity: 70%;
  }
+
+ .card-bg-purple {
+     background: #8237f4;
+     color: aliceblue;
+ }
+
+ .card-bg-grayblue {
+     background: #cdc1e4;
+     color: rgb(85, 7, 46);
+ }
+
+ .card-bg-blackblue {
+     background: #17053a;
+     color: rgb(218, 135, 176);
+ }
+
+ .card-bg-green {
+     background: #1bdd0d;
+     color: rgb(255, 20, 20);
+ }
+
+ .card-bg-yellow {
+     background: #afc91c;
+     color: rgb(4, 0, 255);
+ }
